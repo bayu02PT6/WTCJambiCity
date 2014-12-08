@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Andribayu.wtcjambishop.IndomasActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INDOMAS CELLULAR \n"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/indomas1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Indomas Cell \n
+Indomas Cell adalah sebuah outlet di WTC Jambi dengan basis penjualan berupa peralatan
+gadget atau handphone dan beberapa peralatan telekomunikasi lainnya \n
+Tidak diragukan lagi bahwa barang yang kami sediakan merupakan peralatan tekhnologi 
+yang mampu digunakan untuk berbagai kegunaan \n
+Jika anda merasa membutuhkan peralatan telekomunikasi ini, tidak ada salahnya untuk datang ke outlet kami yang bertempat di \n
+Mall WTC Batanghari Jambi \n
+Lantai 2 (Dua) \n\n
+Produk Populer \n
+Samsung Galaxy Note 10.1 N8000 \n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:onClick="openSamsung"
+                android:scaleType="fitXY"
+                android:src="@drawable/phonee" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

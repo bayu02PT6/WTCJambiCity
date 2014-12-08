@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.Andribayu.wtcjambishop.SonActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Sun Young Cell \n"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sun Young adalah sebuah toko outlet dengan basis telekomunikasi sebagai bahan utama proses penjualan
+yang memiliki kualitas dan daya saing tinggi \n
+Tidak diragukan lagi, dengan sistem pelayanan yang berkelas dan jenis barang yang berkelas pula akan membuat anda sebagai pelanggan kami akan merasa puas dengan apa yang anda dapatkan \n
+Untuk itu, tidak ada alasan bagi anda untuk melewatkan kesempatan ini, dan segeralah mendatangi outlet kami yang bertempat di \n
+Mall WTC Batanghari \n
+Lantai 2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
